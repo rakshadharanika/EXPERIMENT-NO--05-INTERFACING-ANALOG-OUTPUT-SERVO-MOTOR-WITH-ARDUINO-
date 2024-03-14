@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 14-03-2024
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: V RAKSHA DHARANIKA
+###  ROLL NO :212223230167
+###  DEPARTMENT: AIDS
 
 
 # EXPERIMENT NO 05 INTERFACING ANALOG OUTPUT SERVO MOTOR WITH ARDUINO
@@ -59,7 +59,25 @@ CIRCUIT DIAGRAM
  
  ![image](https://user-images.githubusercontent.com/36288975/163544618-6eb8a7b5-7f1a-428a-8d9f-fd899b145efb.png)
 
-### FIGURE 04 CIRCUIT DIAGRAM
+### FIGURE 04
+## CIRCUIT DIAGRAM
+
+
+![Screenshot (81)](https://github.com/rakshadharanika/EXPERIMENT-NO--05-INTERFACING-ANALOG-OUTPUT-SERVO-MOTOR-WITH-ARDUINO-/assets/149348380/71e5dad7-218e-4ba5-be3a-191080d53df1)
+
+
+
+
+
+
+
+
+
+## Graph for Serial Monitor values:
+![Screenshot (80)](https://github.com/rakshadharanika/EXPERIMENT-NO--05-INTERFACING-ANALOG-OUTPUT-SERVO-MOTOR-WITH-ARDUINO-/assets/149348380/f7f3cb4c-ddec-4cf3-ae4b-62bbc7c8fb47)
+
+
+
 
 ### PROCEDURE:
 1.	Connect the circuit as per the circuit diagram 
@@ -74,10 +92,34 @@ CIRCUIT DIAGRAM
 
 
 ### PROGRAM :
- 
+ ```
+#include <Servo.h>
+Servo iservo;
+int pos=0;
+void setup()
+{
+  iservo.attach(10);
+  Serial.begin(9600);
+}
+void loop()
+{
+  for(pos=0;pos<=180;pos+=1){
+    iservo.write(pos);
+    delay(20);
+    //Serial.print("angle=");
+    Serial.println(pos);
+    
+}
+  for(pos=180;pos>=0;pos-=1){
+    iservo.write(pos);
+    delay(20);
+    //Serial.print("angle=");
+    Serial.println(pos);
+    
+}
+  }
 
-
-
+```
 
 
 
