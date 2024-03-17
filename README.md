@@ -66,14 +66,15 @@ CIRCUIT DIAGRAM
 ![Screenshot (81)](https://github.com/rakshadharanika/EXPERIMENT-NO--05-INTERFACING-ANALOG-OUTPUT-SERVO-MOTOR-WITH-ARDUINO-/assets/149348380/71e5dad7-218e-4ba5-be3a-191080d53df1)
 
 
+## SCHEMATIC REPRESENTATION
+
+![Screenshot (82)](https://github.com/rakshadharanika/EXPERIMENT-NO--05-INTERFACING-ANALOG-OUTPUT-SERVO-MOTOR-WITH-ARDUINO-/assets/149348380/34c74d59-4ba6-4f46-8662-fecfb4f58989)
 
 
 
 
 
-
-
-## Graph for Serial Monitor values:
+## GRAPH FOR SERIAL MONITOR VALUES 
 ![Screenshot (80)](https://github.com/rakshadharanika/EXPERIMENT-NO--05-INTERFACING-ANALOG-OUTPUT-SERVO-MOTOR-WITH-ARDUINO-/assets/149348380/f7f3cb4c-ddec-4cf3-ae4b-62bbc7c8fb47)
 
 
